@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabuada JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="app">
+    <section class="painel">
+      <p class="aviso">ALERTA ACADEMICO DE PROPORCOES ABSURDAS</p>
+      <h1>faltei nessa aula então n sei exatamente o que tinha que fazer então segue uma tabuada simples em javascript</h1>
+
+      <form class="formulario" id="formulario-tabuada">
+        <label for="numero">Escolha um numero</label>
+        <div class="controles">
+          <input id="numero" name="numero" type="number" min="1" max="999" value="7" required>
+          <button type="submit">Gerar tabuada</button>
+        </div>
+      </form>
+
+      <section class="resultado" aria-live="polite">
+        <h2 id="titulo-resultado">Tabuada do 7</h2>
+        <ul id="lista-tabuada"></ul>
+      </section>
+    </section>
+  </main>
+</body>
+</html>
